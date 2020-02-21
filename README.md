@@ -30,10 +30,10 @@ All ports listed below are working.
 
 
 > ## Other Reasources
-https://github.com/kk1987/T480s-hackintosh
-https://github.com/tylernguyen/x1c6-hackintosh
-https://github.com/zhtengw/EFI-for-X1C6-hackintosh/
-https://github.com/samuelshi/Thinkpad-T480S
-https://github.com/rtotheb2000/macOS-ThinkPad-T480s-catalina
+- https://github.com/kk1987/T480s-hackintosh
+- https://github.com/tylernguyen/x1c6-hackintosh
+- https://github.com/zhtengw/EFI-for-X1C6-hackintosh/
+- https://github.com/samuelshi/Thinkpad-T480S
+- https://github.com/rtotheb2000/macOS-ThinkPad-T480s-catalina
 
   *All credit goes to all of those guys*
