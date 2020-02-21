@@ -1,5 +1,5 @@
-# macOS on Thinkpad T480s*
-[![release](https://img.shields.io/badge/download-release-blue.svg)](https://github.com/zhtengw/EFI-for-X1C6-hackintosh/releases)
+# macOS on Thinkpad T480s
+
 
 ## My hardware configuration
 | Name                | Specifications | Funtional or not |
