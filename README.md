@@ -29,7 +29,8 @@ All ports listed below are working.
 |MircoSD card reader|
 
 
-> ## Other Reasources
+## Other Reasources
+
 - https://github.com/kk1987/T480s-hackintosh
 - https://github.com/tylernguyen/x1c6-hackintosh
 - https://github.com/zhtengw/EFI-for-X1C6-hackintosh/
