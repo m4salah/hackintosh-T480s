@@ -25,7 +25,7 @@ All ports listed below are working.
 |two USB 3.1 Type-C Gen 2/Thunderbolt 3|
 |HDMI 1.4b|
 |Ethernet extension connector|
-|headphone/microphone jack|
+|headphone/microphone jack [Headphone Problem that i faced](https://github.com/tylernguyen/x1c6-hackintosh/issues/36)|
 |MircoSD card reader|
 
 
