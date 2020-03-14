@@ -13,7 +13,7 @@
 | Ethernet            | Intel(R) Ethernet Connection (4) I219-V  |Fully with IntelMausi.kext|
 | WLAN & Bluetooth    | Intel(R) Dual Band Wireless-AC 8265      |Not Working, need to Replace, i use Tp-Link Nano|
 | MicroSD Card Reader | Generic-SD/MMC CRW USB Device            |Fully with USBPorts.kext|
-| Keyboard & Trackpad | LED backlight, TrackPoint and multi-touch touchpad |Almost fully with VoodooPS2Controller.kext and SSDT-Keyboard-X1C6 patch| 
+| Keyboard & Trackpad | LED backlight, TrackPoint and multi-touch touchpad |Almost fully with VoodooPS2Controller.kext, VodooSMBUS.kext and SSDT-Keyboard-X1C6 patch| 
 | Fingerprint         | On chip fingerprint reader               |Non-funtional|
 
 
