@@ -1,6 +1,6 @@
 
-Clover EFI installer log - Fri Feb 21 15:50:25 EET 2020
-Installer version: v2.5k r5104 EFI bootloader
+Clover EFI installer log - Thu Mar 26 03:22:22 EET 2020
+Installer version: r5107 EFI bootloader
 ======================================================
 /dev/disk0 (internal, physical):
    #:                       TYPE NAME                    SIZE       IDENTIFIER
@@ -12,17 +12,23 @@ Installer version: v2.5k r5104 EFI bootloader
    #:                       TYPE NAME                    SIZE       IDENTIFIER
    0:      APFS Container Scheme -                      +255.9 GB   disk1
                                  Physical Store disk0s2
-   1:                APFS Volume Hackintosh-MS - Data    76.9 GB    disk1s1
+   1:                APFS Volume Hackintosh-MS - Data    150.5 GB   disk1s1
    2:                APFS Volume Preboot                 82.0 MB    disk1s2
    3:                APFS Volume Recovery                1.0 GB     disk1s3
    4:                APFS Volume VM                      1.1 MB     disk1s4
-   5:                APFS Volume Hackintosh-MS           11.0 GB    disk1s5
+   5:                APFS Volume Hackintosh-MS           11.3 GB    disk1s5
+
+/dev/disk2 (external, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *31.4 GB    disk2
+   1:       Microsoft Basic Data BOOT                    209.7 MB   disk2s1
+   2:                  Apple_HFS macOS Base System       31.2 GB    disk2s2
 
 Target volume /Volumes/Hackintosh-MS on disk1 is APFS on physical store disk0s2
 ======================================================
 Backing up EFI files
 
-Backing up /Volumes/Hackintosh-MS/EFIROOTDIR/EFI folder to /Volumes/Hackintosh-MS/EFI-Backups/r5103/2020-02-21-15h50/EFI
+Backing up /Volumes/Hackintosh-MS/EFIROOTDIR/EFI folder to /Volumes/Hackintosh-MS/EFI-Backups/r5104/2020-03-26-03h22/EFI
 ======================================================
 Installing BootSectors/BootLoader
 

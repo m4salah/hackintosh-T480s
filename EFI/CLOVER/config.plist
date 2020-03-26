@@ -17,15 +17,13 @@
 				<key>Comment-IRQ Fix</key>
 				<string>The following fixes may be needed for onboard audio/USB/etc</string>
 				<key>FixHPET</key>
-				<false/>
+				<true/>
 				<key>FixIPIC</key>
-				<false/>
+				<true/>
 				<key>FixRTC</key>
-				<false/>
-				<key>FixShutdown</key>
 				<true/>
 				<key>FixTMR</key>
-				<false/>
+				<true/>
 			</dict>
 			<key>Patches</key>
 			<array>
@@ -33,7 +31,7 @@
 					<key>Comment</key>
 					<string>change OSID to XSID (to avoid match against _OSI XOSI patch)</string>
 					<key>Disabled</key>
-					<false/>
+					<true/>
 					<key>Find</key>
 					<data>T1NJRA==</data>
 					<key>Replace</key>
@@ -43,7 +41,7 @@
 					<key>Comment</key>
 					<string>change _OSI to XOSI</string>
 					<key>Disabled</key>
-					<false/>
+					<true/>
 					<key>Find</key>
 					<data>X09TSQ==</data>
 					<key>Replace</key>
@@ -53,7 +51,7 @@
 					<key>Comment</key>
 					<string>change _DSM to XDSM</string>
 					<key>Disabled</key>
-					<false/>
+					<true/>
 					<key>Find</key>
 					<data>X0RTTQ==</data>
 					<key>Replace</key>
@@ -63,7 +61,7 @@
 					<key>Comment</key>
 					<string>change EC0 to EC</string>
 					<key>Disabled</key>
-					<false/>
+					<true/>
 					<key>Find</key>
 					<data>RUMwXw==</data>
 					<key>Replace</key>
@@ -73,7 +71,7 @@
 					<key>Comment</key>
 					<string>change H_EC to EC</string>
 					<key>Disabled</key>
-					<false/>
+					<true/>
 					<key>Find</key>
 					<data>SF9FQw==</data>
 					<key>Replace</key>
@@ -83,7 +81,7 @@
 					<key>Comment</key>
 					<string>change ECDV to EC</string>
 					<key>Disabled</key>
-					<false/>
+					<true/>
 					<key>Find</key>
 					<data>RUNEVg==</data>
 					<key>Replace</key>
@@ -234,7 +232,7 @@
 		<key>#DefaultVolume</key>
 		<string>disk0</string>
 		<key>Arguments</key>
-		<string>dart=0 nv_disable=1 -cdfon -igfxnohdmi lilucpu=9</string>
+		<string>dart=0 nv_disable=1 -disablegfxfirmware -cdfon -igfxnohdmi lilucpu=9</string>
 		<key>NeverHibernate</key>
 		<true/>
 		<key>Secure</key>
@@ -250,7 +248,7 @@
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>Inject "name" as (data)"#display" to disable graphics drivers on NVidia</string>
+				<string>Inject &quot;name&quot; as (data)&quot;#display&quot; to disable graphics drivers on NVidia</string>
 				<key>Device</key>
 				<string>NVidia</string>
 				<key>Disabled</key>
@@ -262,7 +260,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Inject "IOName" as "#display" to disable graphics drivers on NVidia</string>
+				<string>Inject &quot;IOName&quot; as &quot;#display&quot; to disable graphics drivers on NVidia</string>
 				<key>Device</key>
 				<string>NVidia</string>
 				<key>Disabled</key>
@@ -286,7 +284,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Inject "name" as (data)"#display" to disable graphics drivers on AMD</string>
+				<string>Inject &quot;name&quot; as (data)&quot;#display&quot; to disable graphics drivers on AMD</string>
 				<key>Device</key>
 				<string>ATI</string>
 				<key>Disabled</key>
@@ -298,7 +296,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Inject "IOName" as "#display" to disable graphics drivers on AMD</string>
+				<string>Inject &quot;IOName&quot; as &quot;#display&quot; to disable graphics drivers on AMD</string>
 				<key>Device</key>
 				<string>ATI</string>
 				<key>Disabled</key>
@@ -592,7 +590,7 @@
 		<key>CsrActiveConfig</key>
 		<string>0x67</string>
 		<key>ROM</key>
-		<string>UseMacAddr0</string>
+		<data>+nam6vmD</data>
 	</dict>
 	<key>SMBIOS</key>
 	<dict>
@@ -607,7 +605,7 @@
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>FVF939303CD0000AD</string>
+		<string>FVF0024054N0000A8</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -639,12 +637,14 @@
 		<key>SerialNumber</key>
 		<string>FVFZGWZYL40Y</string>
 		<key>SmUUID</key>
-		<string>CABB3DF0-DDCC-4FFD-8087-D4E17A7DBCAB</string>
+		<string>E33DEA74-3823-43C5-A56E-C660C3F8D43D</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
 	<key>SystemParameters</key>
 	<dict>
+		<key>CustomUUID</key>
+		<string>46055432-0782-4918-A187-5AF878EAF983</string>
 		<key>InjectKexts</key>
 		<string>Detect</string>
 	</dict>
