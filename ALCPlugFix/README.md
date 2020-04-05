@@ -66,3 +66,5 @@ Credits
 - Menchen for the refactoring and new features
 - Joshuaseltzer for creating new install.sh and uninstall.sh
 - Sniki for maintaining the software
+
+> ## This is not mine i used it and just worked for me, [Originaly](https://github.com/tylernguyen/x1c6-hackintosh/tree/master/patches/ALCPlugFix) all Credit goes to him
