@@ -1,5 +1,5 @@
-## **Use Hackintool to determine your audio layout's pin configuration. For x1c6 owners with `ALC285`, it will most likely be the same and you can simply install my prebuilt files.**
-![alc285_pin](https://github.com/tylernguyen/x1c6-hackintosh/blob/master/docs/references/alc285_pin.png) 
+## **Use Hackintool to determine your audio layout's pin configuration. For T480s owners with `ALC257`, it will most likely be the same and you can simply install my prebuilt files.**
+![alc_pin](https://github.com/tylernguyen/x1c6-hackintosh/blob/master/docs/references/alc285_pin.png) 
 
 Build
 -------
