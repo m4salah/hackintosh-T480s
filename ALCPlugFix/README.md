@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 ## **Use Hackintool to determine your audio layout's pin configuration. For x1c6 owners with `ALC257`, it will most likely be the same and you can simply install my prebuilt files.**
 ![alc257](https://github.com/tylernguyen/x1c6-hackintosh/blob/master/docs/references/alc285_pin.png) 
+=======
+## **Use Hackintool to determine your audio layout's pin configuration. For T480s owners with `ALC257`, it will most likely be the same and you can simply install my prebuilt files.**
+![alc_pin](https://github.com/tylernguyen/x1c6-hackintosh/blob/master/docs/references/alc285_pin.png) 
+>>>>>>> 968ce2b591f79f13ad7ebbf694e10823b74ed778
 
 Build
 -------
@@ -67,3 +72,5 @@ Credits
 - Menchen for the refactoring and new features
 - Joshuaseltzer for creating new install.sh and uninstall.sh
 - Sniki for maintaining the software
+
+> ## This is not mine i used it and just worked for me, [Originaly](https://github.com/tylernguyen/x1c6-hackintosh/tree/master/patches/ALCPlugFix) all Credit goes to him
