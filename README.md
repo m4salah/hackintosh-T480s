@@ -8,7 +8,7 @@
 | Memory              | 8GB on Bourd                             |Fully|
 | Storage             | INTEL SSDPEKKF256G8L Controller   256GB  |Fully|
 | Graphics            | Intel UHD Graphics 620                   |Fully with WhateverGreen.kext and properties inject|
-| Display             | 14.0" FHD 1920x1080 LED IPS              |Fully|
+| Display             | 14.0" FHD 1920x1080 LED IPS              |Backlight not working|
 | Audio               | Realtek Audio ALC257 codec               |Fully with AppleALC.kext and layout-id 11|
 | Ethernet            | Intel(R) Ethernet Connection (4) I219-V  |Fully with IntelMausi.kext|
 | WLAN & Bluetooth    | Intel(R) Dual Band Wireless-AC 8265      |Not Working, need to Replace, i use Tp-Link Nano|
