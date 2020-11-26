@@ -5,7 +5,7 @@
 | Name                | Specifications | Funtional or not |
 | ------------------- | -----------------------------------------|---------------|
 | Processor           | Intel Core i5-8250U Processor            |Fully|
-| Memory              | 8GB on Bourd                             |Fully|
+| Memory              | 16GB-> 8GB on Bourd and 8GB on the slot                             |Fully|
 | Storage             | INTEL SSDPEKKF256G8L Controller   256GB  |Fully|
 | Graphics            | Intel UHD Graphics 620                   |Fully with WhateverGreen.kext and properties inject|
 | Display             | 14.0" FHD 1920x1080 LED IPS              |Backlight not working|
