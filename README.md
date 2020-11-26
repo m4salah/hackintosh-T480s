@@ -15,7 +15,7 @@
 | MicroSD Card Reader | Generic-SD/MMC CRW USB Device            |Fully with USBPorts.kext|
 | Keyboard & Trackpad | LED backlight, TrackPoint and multi-touch touchpad |Almost fully with VoodooPS2Controller.kext, VodooSMBUS.kext and SSDT-Keyboard-X1C6 patch| 
 | Fingerprint         | On chip fingerprint reader               |Non-funtional|
-| Camera         | built in camera               |-Working with USBInjectAll.kext|
+| Camera         | built in camera               |Working with USBInjectAll.kext|
 
 
 All ports listed below are working.
