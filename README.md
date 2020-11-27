@@ -1,5 +1,4 @@
 # macOS on Thinkpad T480s
-# ** backlight not working if you solve the this issue please pull request the repo **
 
 ## My hardware configuration
 | Name                | Specifications | Funtional or not |
