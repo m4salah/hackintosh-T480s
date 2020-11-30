@@ -98,7 +98,7 @@
 				<key>Comment</key>
 				<string>SSDT-KBD.aml</string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>Path</key>
 				<string>SSDT-KBD.aml</string>
 			</dict>
@@ -106,7 +106,7 @@
 				<key>Comment</key>
 				<string>SSDT-Keyboard-X1C6.aml</string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>Path</key>
 				<string>SSDT-Keyboard-X1C6.aml</string>
 			</dict>
@@ -285,6 +285,14 @@
 				<true/>
 				<key>Path</key>
 				<string>SSDT-PNLF.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>SSDT-T480-KBRD.aml</string>
+				<key>Enabled</key>
+				<false/>
+				<key>Path</key>
+				<string>SSDT-T480-KBRD.aml</string>
 			</dict>
 		</array>
 		<key>Delete</key>
@@ -439,10 +447,6 @@
 				<data>AAAWWQ==</data>
 				<key>device-id</key>
 				<data>FlkAAA==</data>
-				<key>framebuffer-con0-enable</key>
-				<data>AQAAAA==</data>
-				<key>framebuffer-con0-type</key>
-				<data>AgAAAA==</data>
 				<key>framebuffer-con2-enable</key>
 				<data>AQAAAA==</data>
 				<key>framebuffer-con2-type</key>
@@ -451,10 +455,10 @@
 				<data>AACQAA==</data>
 				<key>framebuffer-patch-enable</key>
 				<data>AQAAAA==</data>
-				<key>framebuffer-stolenmem</key>
-				<data>AAAwAQ==</data>
 				<key>framebuffer-portcount</key>
 				<data>AwAAAA==</data>
+				<key>framebuffer-stolenmem</key>
+				<data>AAAwAQ==</data>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x1F,0x3)</key>
 			<dict>
@@ -1035,7 +1039,7 @@
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/ACPIBacklight</string>
 				<key>MaxKernel</key>
