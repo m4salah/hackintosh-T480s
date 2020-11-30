@@ -10,7 +10,8 @@
 | Display             | 14.0" FHD 1920x1080 LED IPS              |Fully|
 | Audio               | Realtek Audio ALC257 codec               |Fully with AppleALC.kext and layout-id 11|
 | Ethernet            | Intel(R) Ethernet Connection (4) I219-V  |Fully with IntelMausi.kext|
-| WLAN & Bluetooth    | Intel(R) Dual Band Wireless-AC 8265      |Not Working, need to Replace, i use Tp-Link Nano|
+| WLAN & Bluetooth    | Intel(R) Dual Band Wireless-AC 8265  
+|Working with [AirportItlwm.kext](https://github.com/OpenIntelWireless/itlwm)|
 | MicroSD Card Reader | Generic-SD/MMC CRW USB Device            |not tested|
 | Keyboard & Trackpad | LED backlight, TrackPoint and multi-touch touchpad |Almost fully with VoodooPS2Controller.kext, VodooSMBUS.kext and SSDT-Keyboard-X1C6 patch| 
 | Fingerprint         | On chip fingerprint reader               |Non-funtional|
